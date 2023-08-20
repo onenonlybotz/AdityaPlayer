@@ -92,7 +92,7 @@ LOG_FILE_NAME = "adityalogs.txt"
 
 # All Images Of Aditya Player // @AdityaHalder
 START_IMG_URL = getenv("START_IMG_URL", f"https://graph.org/file/c3cf5ca2ab9a041a22673.jpg")
-PING_IMG_URL = getenv("PING_IMG_URL", f"https://graph.org/file/c3cf5ca2ab9a041a22673.jpg")
+PING_IMG_URL = getenv("PING_IMG_URL", "AdityaHalder/resource/ping.jpeg")
 PLAYLIST_IMG_URL = getenv("PLAYLIST_IMG_URL", "AdityaHalder/resource/playlist.jpeg")
 GLOBAL_IMG_URL = getenv("GLOBAL_IMG_URL", "AdityaHalder/resource/global.jpeg")
 STATS_IMG_URL = getenv("STATS_IMG_URL", "AdityaHalder/resource/stats.jpeg")
