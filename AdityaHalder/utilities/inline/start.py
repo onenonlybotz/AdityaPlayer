@@ -31,24 +31,24 @@ def start_pannel(_):
             )
         ]
     ]
+    
     return buttons
+
 
 def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
     buttons = [
         [
             InlineKeyboardButton(
-                text="➕ ❰ 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 ❱ ➕",
+                text="➕ ❰𝐀𝐝𝐝 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 ❱ ➕",
                 url=f"https://t.me/{bot.username}?startgroup=true"),
         ],
         [
             InlineKeyboardButton(
                 text="📡 𝐔𝐩𝐝𝐚𝐭𝐞𝐬",
-                url=f"https://t.me/DabangTheBrand",
-            )
+                url=f"https://t.me/DabangTheBrand"),
             InlineKeyboardButton(
                 text="𝐒𝐮𝐩𝐩𝐨𝐫𝐭 💬",
-                url=f"https://t.me/DabangTheBrand",
-            )
+                url=f"https://t.me/DabangTheBrand")
         ],
         [
             InlineKeyboardButton(
@@ -57,20 +57,5 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
             )
         ]
     ]
-    return buttons
-
-def private_panelx(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
-    buttons = [
-        [
-            InlineKeyboardButton(
-                text="➕ ❰ 𝐀𝐝𝐝 𝐌𝐞 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 ❱ ➕",
-                url=f"https://t.me/{bot.username}?startgroup=true"),
-        ],
-        [
-            InlineKeyboardButton(
-                text="⚙ ❰ 𝐎𝐩𝐞𝐧 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬 𝐌𝐞𝐧𝐮 ❱ ⚙",
-                callback_data="settings_back_helper"
-            )
-        ]
-    ]
+            
     return buttons
