@@ -44,10 +44,12 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
             InlineKeyboardButton(
                 text="📡 𝐔𝐩𝐝𝐚𝐭𝐞𝐬",
                 url=f"https://t.me/DabangTheBrand",
+            )
                 
             InlineKeyboardButton(
                 text="𝐒𝐮𝐩𝐩𝐨𝐫𝐭 💬",
                 url=f"https://t.me/DabangTheBrand",
+            )
         ],
         [
             InlineKeyboardButton(
