@@ -47,7 +47,7 @@ def help_pannel(_, START: Union[bool, int] = None):
                 ),
                 InlineKeyboardButton(
                     text=_["H_B_7"],
-                    url=f"{SUPPORT_GROUP}",
+                    url=f"https://t.me/DabangTheBrand",
                 ),
             ],
             mark,
